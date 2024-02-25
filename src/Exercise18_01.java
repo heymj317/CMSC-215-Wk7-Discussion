@@ -1,5 +1,5 @@
-import java.util.Scanner;
 import java.math.BigInteger;
+import java.util.Scanner;
 
 public class Exercise18_01 {
     public static BigInteger myFactorial(int n) {
@@ -15,11 +15,11 @@ public class Exercise18_01 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the size of the factorial: ");
+        System.out.print("Enter an integer of any size: ");
         int size = sc.nextInt();
 
 
-        System.out.println("The value of " + size + "! is: " + myFactorial(size));
+        System.out.println("Factorial of " + size + " is " + myFactorial(size));
     }
 
 }
